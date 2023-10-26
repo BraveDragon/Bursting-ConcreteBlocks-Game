@@ -1626,3 +1626,71 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.26-02.20.59:709][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
 [2023.10.26-02.20.59:742][258]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.10.26-02.22.16:736][422]LogDerivedDataCache: C:/Users/masa0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.343 and deleted 0 files with total size 0 MiB. Scanned 2526 files in 2513 folders with total size 71 MiB.
+[2023.10.26-02.29.07:173][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.07:173][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.07:173][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.07:176][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.07:176][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.07:176][942]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.29.11:975][505]LogSlate: Window 'BurstingBlocks - Unreal Editor' being destroyed
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Tools
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingQuality
+[2023.10.26-02.29.12:029][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo.LightingDensity
+[2023.10.26-02.29.12:030][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo.LightingResolution
+[2023.10.26-02.29.12:030][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo
+[2023.10.26-02.29.12:030][505]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Select
+[2023.10.26-02.29.12:030][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2023.10.26-02.29.12:030][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.AddQuickMenu
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.ModesToolBar
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.AssetsToolBar
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.PlayToolBar
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.User
+[2023.10.26-02.29.12:031][505]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SettingsToolbar
+[2023.10.26-02.29.12:044][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-02.29.12:049][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-02.29.12:054][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-02.29.12:058][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.26-02.29.12:074][505]LogToolMenus: Warning: Menu already registered : LevelEditor.StatusBar.ToolBar.CompileComboButton
+[2023.10.26-02.29.12:272][505]LogSlate: Took 0.002199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.26-02.29.12:273][505]LogViewport: Scene viewport resized to 1523x848, mode Windowed.
+[2023.10.26-02.29.30:963][521]LogSlate: Took 0.002071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.10.26-02.29.43:128][588]LogSlate: Window 'コンテンツブラウザ' being destroyed
+[2023.10.26-02.29.43:134][588]LogViewport: Scene viewport resized to 1523x421, mode Windowed.
+[2023.10.26-02.29.44:874][785]LogViewport: Scene viewport resized to 1523x427, mode Windowed.
+[2023.10.26-02.29.44:884][786]LogViewport: Scene viewport resized to 1523x431, mode Windowed.
+[2023.10.26-02.29.44:935][787]LogViewport: Scene viewport resized to 1523x436, mode Windowed.
+[2023.10.26-02.29.45:042][798]LogViewport: Scene viewport resized to 1523x441, mode Windowed.
+[2023.10.26-02.29.45:074][801]LogViewport: Scene viewport resized to 1523x442, mode Windowed.
+[2023.10.26-02.29.45:111][804]LogViewport: Scene viewport resized to 1523x444, mode Windowed.
+[2023.10.26-02.29.45:146][807]LogViewport: Scene viewport resized to 1523x447, mode Windowed.
+[2023.10.26-02.29.45:176][809]LogViewport: Scene viewport resized to 1523x449, mode Windowed.
+[2023.10.26-02.29.45:204][811]LogViewport: Scene viewport resized to 1523x457, mode Windowed.
+[2023.10.26-02.29.45:231][813]LogViewport: Scene viewport resized to 1523x462, mode Windowed.
+[2023.10.26-02.29.45:266][816]LogViewport: Scene viewport resized to 1523x470, mode Windowed.
+[2023.10.26-02.29.45:294][818]LogViewport: Scene viewport resized to 1523x475, mode Windowed.
+[2023.10.26-02.29.45:323][820]LogViewport: Scene viewport resized to 1523x482, mode Windowed.
+[2023.10.26-02.29.45:348][822]LogViewport: Scene viewport resized to 1523x488, mode Windowed.
+[2023.10.26-02.29.45:385][825]LogViewport: Scene viewport resized to 1523x496, mode Windowed.
+[2023.10.26-02.29.45:411][827]LogViewport: Scene viewport resized to 1523x498, mode Windowed.
+[2023.10.26-02.29.45:465][832]LogViewport: Scene viewport resized to 1523x508, mode Windowed.
+[2023.10.26-02.29.45:488][834]LogViewport: Scene viewport resized to 1523x512, mode Windowed.
+[2023.10.26-02.29.45:517][836]LogViewport: Scene viewport resized to 1523x516, mode Windowed.
+[2023.10.26-02.30.09:519][702]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.26-02.30.14:089][227]LogViewport: Scene viewport resized to 1167x516, mode Windowed.
+[2023.10.26-02.30.21:561][106]LogViewport: Scene viewport resized to 1496x516, mode Windowed.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.30.46:216][830]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.10.26-02.31.35:400][673]LogSlate: Window '名前を付けてレイアウトを保存' being destroyed
