@@ -1,0 +1,6 @@
+2023/10/26-11:55:08.514 4c1c Creating DB C:/Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2023/10/26-11:55:08.530 4c1c Reusing MANIFEST C:/Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/26-11:59:50.076 51ac Level-0 table #5: started
+2023/10/26-11:59:50.083 51ac Level-0 table #5: 1167 bytes OK
+2023/10/26-11:59:50.088 51ac Delete type=0 #3
+2023/10/26-11:59:50.088 51ac Manual compaction at level-0 from (begin) .. (end); will stop at (end)
