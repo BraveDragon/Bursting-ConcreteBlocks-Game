@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\masa0\\documents\\unreal projects\\bursting-concreteblocks-game\\burstingblocks\\intermediate\\source\\burstingblocks.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\masa0\\documents\\unreal projects\\bursting-concreteblocks-game\\burstingblocks\\intermediate\\build\\win64\\burstingblocks\\development\\core\\sharedpch.core.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\masa0\\documents\\unreal projects\\bursting-concreteblocks-game\\burstingblocks\\intermediate\\build\\win64\\unrealgame\\development\\burstingblocks\\definitions.burstingblocks.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
