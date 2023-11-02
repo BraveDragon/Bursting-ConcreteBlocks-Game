@@ -1390,3 +1390,102 @@ Landscape_WaterBrushManager
 [2023.11.02-04.08.50:229][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 2.01 sec)
 [2023.11.02-04.08.50:233][757]AssetCheck: New page: Asset Save: Stage
 [2023.11.02-04.08.50:234][757]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.10.34:449][908]LogViewport: Scene viewport resized to 632x255, mode Windowed.
+[2023.11.02-04.10.34:470][908]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.02-04.10.34:519][908]LogViewport: Scene viewport resized to 632x255, mode Windowed.
+[2023.11.02-04.10.34:544][908]LogViewport: Scene viewport resized to 632x255, mode Windowed.
+[2023.11.02-04.10.34:570][908]LogViewport: Scene viewport resized to 1083x440, mode Windowed.
+[2023.11.02-04.10.34:584][909]LogViewport: Scene viewport resized to 638x258, mode Windowed.
+[2023.11.02-04.10.34:643][910]LogViewport: Scene viewport resized to 632x255, mode Windowed.
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: ================================================
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Total job queries 219, among them cache hits 17 (7.76%)
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Tracking 198 distinct input hashes that result in 146 distinct outputs (73.74%)
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: RAM used: 1.53 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Jobs assigned 5, completed 1 (20.00%)
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Job execution time: average 0.73 s, max 0.73 s
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Job life time (pending + execution): average 0.81 s, max 0.81
+[2023.11.02-04.10.35:294][952]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.81 s
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Average processing rate: 1.23 jobs/sec
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Total thread time: 0.44 s
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Total thread preprocess time: 0.04 s
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Percentage time preprocessing: 9.79%
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Effective parallelization: 0.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display:                                                  FHitProxyPS - 100.00% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2023.11.02-04.10.35:295][952]LogShaderCompilers: Display: ================================================
+[2023.11.02-04.10.49:637][433]Cmd: MODE GRID=0
+[2023.11.02-04.10.50:708][513]Cmd: MODE GRID=1
+[2023.11.02-04.11.00:352][521]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.11.00:447][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.11.02-04.11.00:530][521]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.11.00:531][521]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageFCAA0F7143F790A2A9B4BEB6195FE045.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.11.00:548][521]LogFileHelpers: Saving map 'Stage' took 0.108
+[2023.11.02-04.11.00:554][521]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 2.21 sec)
+[2023.11.02-04.11.00:558][521]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.11.00:558][521]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.11.20:885][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.20:885][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.20:885][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.20:888][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.20:888][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.20:888][748]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/DefaultLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.23:664][ 50]LogConfig: Warning: GConfig::Find attempting to access config with non-normalized path C:/Program Files/Epic Games/UE_5.1/Engine/Config/Layouts/UE4ClassicLayout.ini. Please use FConfigCacheIni::NormalizeConfigIniPath before accessing INI files through ConfigCache.
+[2023.11.02-04.11.25:413][238]LogSlate: Took 0.019368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.11.02-04.11.26:310][339]LogSlate: Window 'BurstingBlocks - Unreal Editor' being destroyed
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.File
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Window
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Tools
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Edit
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Help
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingQuality
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo.LightingDensity
+[2023.11.02-04.11.26:359][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo.LightingResolution
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Build.LightingInfo
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.MainMenu.Select
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.Cinematics
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.LevelToolbarQuickSettings
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.OpenBlueprint
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.AddQuickMenu
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.ModesToolBar
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.AssetsToolBar
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.PlayToolBar
+[2023.11.02-04.11.26:360][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.User
+[2023.11.02-04.11.26:361][339]LogToolMenus: Warning: Menu already registered : LevelEditor.LevelEditorToolBar.SettingsToolbar
+[2023.11.02-04.11.26:380][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.11.26:386][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.11.26:391][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.11.26:396][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.11.26:418][339]LogToolMenus: Warning: Menu already registered : LevelEditor.StatusBar.ToolBar.CompileComboButton
+[2023.11.02-04.11.26:605][339]LogViewport: Scene viewport resized to 1496x516, mode Windowed.
+[2023.11.02-04.11.39:093][714]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.11.39:181][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.11.02-04.11.39:263][714]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.11.39:265][714]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageC93F94F545548DC1393ADD905177F91F.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.11.39:283][714]LogFileHelpers: Saving map 'Stage' took 0.108
+[2023.11.02-04.11.39:299][714]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 2.41 sec)
+[2023.11.02-04.11.39:302][714]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.11.39:302][714]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.12.03:205][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.12.03:305][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.11.02-04.12.03:422][390]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.12.03:423][390]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage5F8F4C5B46E34B2FDA91FEBFB595DC72.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.12.03:452][390]LogFileHelpers: Saving map 'Stage' took 0.155
+[2023.11.02-04.12.03:461][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 254 ms (total: 2.67 sec)
+[2023.11.02-04.12.03:464][390]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.12.03:464][390]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
