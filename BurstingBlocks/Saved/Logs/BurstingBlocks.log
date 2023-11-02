@@ -1662,3 +1662,190 @@ Landscape_WaterBrushManager
 [2023.11.02-04.29.50:834][135]Cmd: TRANSACTION UNDO
 [2023.11.02-04.29.50:834][135]LogEditorTransaction: Undo Set Location
 [2023.11.02-04.29.50:865][135]LogActorComponent: ~FComponentReregisterContext: (/Game/Stage.Stage:PersistentLevel.WaterBodyOcean_1.OceanCollisionBoxComponent_1) Component already registered.
+[2023.11.02-04.31.29:795][961]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.31.29:898][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.11.02-04.31.29:985][961]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.31.29:986][961]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage9DB39FC04BC4F3189D966EBE397E420C.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.31.30:003][961]LogFileHelpers: Saving map 'Stage' took 0.127
+[2023.11.02-04.31.30:008][961]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 4.39 sec)
+[2023.11.02-04.31.30:014][961]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.31.30:014][961]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.32.40:745][789]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.32.40:746][789]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.32.40:746][789]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.32.49:421][789]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.11.02-04.32.49:425][789]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.11.02-04.32.49:430][789]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.11.02-04.32.49:438][790]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.11.02-04.33.05:206][615]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GameMode
+[2023.11.02-04.33.05:377][615]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.11.02-04.33.06:483][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.33.06:575][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameMode" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_GameMode.uasset" SILENT=true
+[2023.11.02-04.33.06:580][721]LogSavePackage: Moving output files for package: /Game/BP_GameMode
+[2023.11.02-04.33.06:580][721]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_GameMode9F20740E45358494A9F604A91DD31A2F.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_GameMode.uasset'
+[2023.11.02-04.33.06:817][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 334 ms (total: 4.72 sec)
+[2023.11.02-04.33.06:824][721]AssetCheck: New page: Asset Save: BP_GameMode
+[2023.11.02-04.33.06:824][721]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_GameMode.BP_GameMode
+[2023.11.02-04.33.16:292][768]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_GameMode.BP_GameMode
+[2023.11.02-04.33.16:292][768]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.33.16:814][768]LogViewport: Scene viewport resized to 1134x635, mode Windowed.
+[2023.11.02-04.33.20:288][963]LogSlate: Window 'BP_GameMode' being destroyed
+[2023.11.02-04.33.20:308][963]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.33.20:308][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.33.35:938][570]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_GameMode.BP_GameMode
+[2023.11.02-04.33.35:938][570]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.33.41:404][930]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.33.41:404][930]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.33.41:404][930]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.33.54:389][433]LogSlate: Window 'BP_GameMode' being destroyed
+[2023.11.02-04.33.54:407][433]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.33.54:407][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.33.56:291][567]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player.Player
+[2023.11.02-04.33.56:291][567]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.33.58:941][812]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.33.58:941][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.34.02:287][ 88]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player.Player
+[2023.11.02-04.34.02:287][ 88]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.34.05:053][354]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.34.05:053][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.34.21:213][859]LogContentBrowser: Attempting asset rename: Player -> BP_Player
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.BP_Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.SKEL_BP_Player_C:ReceiveBeginPlay' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.SKEL_BP_Player_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.BP_Player_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.BP_Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.BP_Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.BP_Player:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.SKEL_BP_Player_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.SKEL_BP_Player_C:ReceiveTick' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:180][859]LogMetaData: Removing '/Game/BP_Player.SKEL_BP_Player_C:UserConstructionScript' ref from Metadata '/Game/Player.PackageMetaData'
+[2023.11.02-04.34.22:206][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.34.22:300][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_Player.uasset" SILENT=true
+[2023.11.02-04.34.22:306][859]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2023.11.02-04.34.22:306][859]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Player724608E54B7A453CF07ED0944391994E.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_Player.uasset'
+[2023.11.02-04.34.22:308][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Player.uasset" SILENT=true
+[2023.11.02-04.34.22:310][859]LogSavePackage: Moving output files for package: /Game/Player
+[2023.11.02-04.34.22:312][859]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Player4CACA1A0489D7322D95E01A74EB0DF31.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Player.uasset'
+[2023.11.02-04.34.22:551][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 344 ms (total: 5.07 sec)
+[2023.11.02-04.34.22:882][859]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.02-04.34.22:882][859]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player.Player
+[2023.11.02-04.34.22:882][859]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player.Default__Player_C
+[2023.11.02-04.34.22:882][859]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Player.Player_C
+[2023.11.02-04.34.22:882][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Player.BP_Player
+[2023.11.02-04.34.25:403][122]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.34.25:488][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_Player.uasset" SILENT=true
+[2023.11.02-04.34.25:494][122]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2023.11.02-04.34.25:495][122]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Player6B195E8745202953F518218F7B2D0809.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_Player.uasset'
+[2023.11.02-04.34.25:502][122]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 5.17 sec)
+[2023.11.02-04.34.25:509][122]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.02-04.34.25:509][122]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_Player.BP_Player
+[2023.11.02-04.34.55:236][406]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Player.BP_Player_C
+[2023.11.02-04.34.55:236][406]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Player.BP_Player_C
+[2023.11.02-04.34.55:237][406]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Player.BP_Player as actor: BP_Player_C /Game/Stage.Stage:PersistentLevel.BP_Player_C_4
+[2023.11.02-04.34.55:238][406]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Player.BP_Player as actor: BP_Player_C /Game/Stage.Stage:PersistentLevel.BP_Player_C_4
+[2023.11.02-04.34.56:343][525]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Player.BP_Player_C
+[2023.11.02-04.34.56:343][525]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/BP_Player.BP_Player_C
+[2023.11.02-04.34.56:345][525]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Player.BP_Player as actor: BP_Player_C /Game/Stage.Stage:PersistentLevel.BP_Player_C_5
+[2023.11.02-04.34.56:346][525]LogActorFactory: Actor Factory spawned Blueprint /Game/BP_Player.BP_Player as actor: BP_Player_C /Game/Stage.Stage:PersistentLevel.BP_Player_C_5
+[2023.11.02-04.35.29:969][953]Cmd: DELETE
+[2023.11.02-04.35.29:969][953]Cmd: ACTOR DELETE
+[2023.11.02-04.35.29:973][953]LogEditorActor: Deleted Actor: BP_Player_C
+[2023.11.02-04.35.30:006][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.02-04.35.30:014][953]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2023.11.02-04.35.31:661][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.35.31:766][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.02-04.35.31:850][111]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.35.31:852][111]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage4276E50640A22908BCB794963FDAB2E6.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.35.31:869][111]LogFileHelpers: Saving map 'Stage' took 0.124
+[2023.11.02-04.35.31:875][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 213 ms (total: 5.38 sec)
+[2023.11.02-04.35.31:882][111]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.35.31:882][111]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.35.58:512][229]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_GameMode.BP_GameMode
+[2023.11.02-04.35.58:513][229]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.36.06:484][856]BlueprintLog: New page: Compile BP_GameMode
+[2023.11.02-04.36.06:527][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.11.02-04.36.08:217][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.36.08:304][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameMode" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_GameMode.uasset" SILENT=true
+[2023.11.02-04.36.08:308][976]LogSavePackage: Moving output files for package: /Game/BP_GameMode
+[2023.11.02-04.36.08:310][976]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_GameMode73A4617945DC9208A96E69AEAC8EA86C.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/BP_GameMode.uasset'
+[2023.11.02-04.36.08:316][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 5.48 sec)
+[2023.11.02-04.36.08:323][976]AssetCheck: New page: Asset Save: BP_GameMode
+[2023.11.02-04.36.08:323][976]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BP_GameMode.BP_GameMode
+[2023.11.02-04.36.19:560][864]LogSlate: Window 'BP_GameMode' being destroyed
+[2023.11.02-04.36.19:572][864]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.36.19:572][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.37.02:728][812]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.37.02:728][812]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.37.02:728][812]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.11.02-04.37.08:275][434]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.37.08:438][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.11.02-04.37.08:522][434]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.37.08:523][434]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageC06E583D489EC8C407D77CAC292EB5B2.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.37.08:539][434]LogFileHelpers: Saving map 'Stage' took 0.171
+[2023.11.02-04.37.08:546][434]LogFileHelpers: InternalPromptForCheckoutAndSave took 271 ms (total: 5.75 sec)
+[2023.11.02-04.37.08:552][434]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.37.08:552][434]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.02-04.37.25:084][368]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2023.11.02-04.37.25:147][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.11.02-04.37.47:139][171]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.11.02-04.37.47:140][171]LogPlayLevel: [PlayLevel] Compiling Stage before play...
+[2023.11.02-04.37.47:202][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.11.02-04.37.47:207][171]LogPlayLevel: PlayLevel: Blueprint regeneration took 67 ms (1 blueprints)
+[2023.11.02-04.37.47:207][171]PIE: New page: PIE session: Stage (2023/11/02 22:37:47)
+[2023.11.02-04.37.47:208][171]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.02-04.37.47:216][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009401s)
+[2023.11.02-04.37.47:216][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.009431s)
+[2023.11.02-04.37.47:217][171]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.02-04.37.47:217][171]LogAIModule: Creating AISystem for world Stage
+[2023.11.02-04.37.47:217][171]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2023.11.02-04.37.47:238][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.11.02-04.37.47:238][171]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.02-04.37.47:238][171]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.02-04.37.47:238][171]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.02-04.37.47:238][171]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.02-04.37.47:238][171]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.02-04.37.47:238][171]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.02-04.37.47:240][171]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.02-04.37.47:259][171]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.02-04.37.47:260][171]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.02-04.37.47:260][171]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.02-04.37.47:260][171]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.02-04.37.47:260][171]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.11.02-04.37.47:260][171]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.11.02-04.37.47:261][171]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.11.02-04.37.47:262][171]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.11.02-04.37.47:262][171]LogInit: FAudioDevice initialized.
+[2023.11.02-04.37.47:262][171]LogAudio: Display: Audio Device (ID: 3) registered with world 'Stage'.
+[2023.11.02-04.37.47:265][171]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.02-04.37.47:269][171]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.02-13.37.47
+[2023.11.02-04.37.47:271][171]LogWorld: Bringing up level for play took: 0.006676
+[2023.11.02-04.37.47:274][171]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.11.02-04.37.47:275][171]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.11.02-04.37.47:275][171]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.11.02-04.37.47:275][171]PIE: Server logged in
+[2023.11.02-04.37.47:276][171]PIE: Play in editor total start time 0.136 seconds.
+[2023.11.02-04.37.54:801][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.37.54:801][ 33]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.02-04.37.54:801][ 33]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.02-04.37.54:802][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.37.54:805][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.02-04.37.54:810][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.02-04.37.54:830][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.02-04.37.54:831][ 33]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.02-04.37.54:832][ 33]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.02-04.37.54:839][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.11.02-04.37.54:861][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.11.02-04.39.23:926][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.02-04.39.24:038][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.11.02-04.39.24:124][657]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.02-04.39.24:125][657]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageB181E18840949F64AB5C6E9DFB5CAE5D.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.02-04.39.24:142][657]LogFileHelpers: Saving map 'Stage' took 0.126
+[2023.11.02-04.39.24:148][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 222 ms (total: 5.97 sec)
+[2023.11.02-04.39.24:157][657]AssetCheck: New page: Asset Save: Stage
+[2023.11.02-04.39.24:157][657]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
