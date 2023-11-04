@@ -77,3 +77,4 @@ Windows/BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 *.txt
+*.ucas
