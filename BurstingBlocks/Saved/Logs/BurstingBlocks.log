@@ -7165,3 +7165,18 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.11.04-07.13.40:824][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.11.04-07.13.40:826][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
 [2023.11.04-07.13.40:864][941]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2023.11.04-07.14.03:946][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-07.14.04:063][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.04-07.14.04:147][245]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.04-07.14.04:148][245]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageD82A657642BCFEA2BCD0FAB105A1C1E1.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.04-07.14.04:168][245]LogFileHelpers: No new changes to save!
+[2023.11.04-07.14.04:168][245]LogFileHelpers: Saving map 'Stage' took 0.130
+[2023.11.04-07.14.04:174][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 16.5 sec)
+[2023.11.04-07.14.04:181][245]AssetCheck: New page: Asset Save: Stage
+[2023.11.04-07.14.04:181][245]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.04-07.14.08:534][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.04-07.14.08:653][712]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2023.11.04-07.14.08:653][712]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_PlayerEFBD72F1423A4274EB3D9487D9181183.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Player.uasset'
+[2023.11.04-07.14.08:661][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 16.6 sec)
+[2023.11.04-07.14.08:669][712]AssetCheck: New page: Asset Save: BP_Player
+[2023.11.04-07.14.08:669][712]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Player.BP_Player
