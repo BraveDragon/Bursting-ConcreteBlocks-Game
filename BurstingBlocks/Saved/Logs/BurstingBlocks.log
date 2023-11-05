@@ -6696,3 +6696,89 @@ Script Stack (0 frames) :
 [2023.11.05-06.06.15:766][755]LogSlate: Window 'BP_PolygonalBlock' being destroyed
 [2023.11.05-06.06.15:782][755]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
 [2023.11.05-06.06.15:782][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.07.02:895][687]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Kraken/Meshes/KRAKEN.KRAKEN
+[2023.11.05-06.07.02:896][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.07.02:913][687]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-06.07.03:143][687]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.11.05-06.07.03:257][687]LogViewport: Scene viewport resized to 1138x803, mode Windowed.
+[2023.11.05-06.07.35:205][316]LogSlate: Window 'KRAKEN' being destroyed
+[2023.11.05-06.07.35:238][316]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.07.35:239][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.07.40:868][623]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Kraken/Meshes/KRAKEN_Skeleton.KRAKEN_Skeleton
+[2023.11.05-06.07.40:869][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.07.40:895][623]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_60:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-06.07.41:138][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.07.41:233][623]LogViewport: Scene viewport resized to 1138x803, mode Windowed.
+[2023.11.05-06.07.52:224][184]LogSlate: Window 'KRAKEN_Skeleton' being destroyed
+[2023.11.05-06.07.52:273][184]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.07.52:273][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.07.52:330][184]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.07.52:330][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.08.20:333][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.11.05-06.08.20:436][411]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Stage_Auto2
+[2023.11.05-06.08.20:437][411]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage_Auto2F3E245BB47C9FE3F4296A4BFDDF51AD8.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Autosaves/Game/Stage_Auto2.umap'
+[2023.11.05-06.08.20:442][411]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Stage' took 0.136
+[2023.11.05-06.08.20:442][411]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.136
+[2023.11.05-06.09.38:441][467]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Kraken/Meshes/KRAKEN_Skeleton.KRAKEN_Skeleton
+[2023.11.05-06.09.38:442][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.09.38:473][467]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_62:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-06.09.38:732][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.09.38:834][467]LogViewport: Scene viewport resized to 1138x803, mode Windowed.
+[2023.11.05-06.09.52:713][171]LogSlate: Window 'KRAKEN_Skeleton' being destroyed
+[2023.11.05-06.09.52:739][171]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.09.52:739][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.09.52:794][171]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.09.52:794][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.10.28:613][284]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Kraken/Meshes/KRAKEN.KRAKEN
+[2023.11.05-06.10.28:613][284]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-06.10.28:630][284]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.11.05-06.10.28:877][284]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2023.11.05-06.10.28:994][284]LogViewport: Scene viewport resized to 1138x803, mode Windowed.
+[2023.11.05-06.10.44:110][ 71]LogShaderCompilers: Display: ================================================
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Total job queries 277, among them cache hits 32 (11.55%)
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Tracking 245 distinct input hashes that result in 168 distinct outputs (68.57%)
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: RAM used: 1.87 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.23%
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Shaders Compiled: 7
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100.00%)
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Average time worker was idle: 1333.54 s
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.08 s
+[2023.11.05-06.10.44:111][ 71]LogShaderCompilers: Display: Job execution time: average 1.61 s, max 1.92 s
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Job life time (pending + execution): average 1.66 s, max 1.94
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.55 s
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Average processing rate: 1.97 jobs/sec
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Total thread time: 7.99 s
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Total thread preprocess time: 0.47 s
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Percentage time preprocessing: 5.87%
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Effective parallelization: 2.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 1.19 sec, max 1.50 sec, min 1.03 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 1.02 sec, max 1.02 sec, min 1.02 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 0.98 sec, max 0.99 sec, min 0.98 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 44.83% of total time (compiled    3 times, average 1.19 sec, max 1.50 sec, min 1.03 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 24.65% of total time (compiled    2 times, average 0.98 sec, max 0.99 sec, min 0.98 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.69% of total time (compiled    1 times, average 1.41 sec, max 1.41 sec, min 1.41 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display:                                           FLumenCardPS<true> - 12.83% of total time (compiled    1 times, average 1.02 sec, max 1.02 sec, min 1.02 sec)
+[2023.11.05-06.10.44:112][ 71]LogShaderCompilers: Display: ================================================
+[2023.11.05-06.13.22:241][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-06.13.22:386][513]LogSavePackage: Moving output files for package: /Game/Kraken/Meshes/KRAKEN
+[2023.11.05-06.13.22:388][513]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/KRAKENBC74D9F74A8A7A4DD95CEEA5D0869212.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Kraken/Meshes/KRAKEN.uasset'
+[2023.11.05-06.13.22:397][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 13.3 sec)
+[2023.11.05-06.13.22:404][513]AssetCheck: New page: Asset Save: KRAKEN
+[2023.11.05-06.13.22:405][513]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Kraken/Meshes/KRAKEN.KRAKEN
+[2023.11.05-06.13.38:940][378]LogSlate: Window 'KRAKEN' being destroyed
+[2023.11.05-06.13.38:977][378]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-06.13.38:977][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-06.13.48:450][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-06.13.48:558][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.05-06.13.48:660][914]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.05-06.13.48:661][914]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage9D8BC7704AC9F5B2E4398380217777DB.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.05-06.13.48:682][914]LogFileHelpers: No new changes to save!
+[2023.11.05-06.13.48:682][914]LogFileHelpers: Saving map 'Stage' took 0.151
+[2023.11.05-06.13.48:688][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 13.6 sec)
+[2023.11.05-06.13.48:694][914]AssetCheck: New page: Asset Save: Stage
+[2023.11.05-06.13.48:694][914]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
