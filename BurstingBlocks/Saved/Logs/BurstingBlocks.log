@@ -3998,3 +3998,35 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.05-03.21.54:420][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 490 ms (total: 14.8 sec)
 [2023.11.05-03.21.54:427][803]AssetCheck: New page: Asset Save: BP_Block
 [2023.11.05-03.21.54:427][803]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2023.11.05-03.22.44:668][220]BlueprintLog: New page: Compile BP_Block
+[2023.11.05-03.22.44:753][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.05-03.22.45:997][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-03.22.46:178][231]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2023.11.05-03.22.46:181][231]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Block84DFB5054962C043448AF19867805BA4.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Block.uasset'
+[2023.11.05-03.22.46:189][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 14.9 sec)
+[2023.11.05-03.22.46:197][231]AssetCheck: New page: Asset Save: BP_Block
+[2023.11.05-03.22.46:197][231]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2023.11.05-03.23.39:262][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.11.05-03.23.39:267][583]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Stage' took 0.035
+[2023.11.05-03.23.39:267][583]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Block] ([2] browsable assets)...
+[2023.11.05-03.23.39:377][583]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Block.BP_Block]
+[2023.11.05-03.23.39:377][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Block]
+[2023.11.05-03.23.39:384][583]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Block_Auto2
+[2023.11.05-03.23.39:384][583]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Block_Auto21FD93C5F44CE882484B21FBBE3A9933E.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Autosaves/Game/Blueprints/BP_Block_Auto2.uasset'
+[2023.11.05-03.23.39:395][583]LogFileHelpers: Auto-saving content packages took 0.119
+[2023.11.05-03.24.33:514][801]BlueprintLog: New page: Compile BP_Block
+[2023.11.05-03.24.33:598][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.11.05-03.24.34:922][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-03.24.35:095][813]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2023.11.05-03.24.35:096][813]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Block7D226BC04AEE8CEB43AF01A574E0C6E8.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Block.uasset'
+[2023.11.05-03.24.35:108][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 15.1 sec)
+[2023.11.05-03.24.35:114][813]AssetCheck: New page: Asset Save: BP_Block
+[2023.11.05-03.24.35:114][813]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Block.BP_Block
+[2023.11.05-03.25.31:041][458]BlueprintLog: New page: Compile BP_Block
+[2023.11.05-03.25.31:124][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.11.05-03.25.32:213][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-03.25.32:389][467]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Block
+[2023.11.05-03.25.32:391][467]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Block5B4FD7624CE8A012DEA89FB6767CC15B.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Block.uasset'
+[2023.11.05-03.25.32:401][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 15.3 sec)
+[2023.11.05-03.25.32:409][467]AssetCheck: New page: Asset Save: BP_Block
+[2023.11.05-03.25.32:409][467]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Block.BP_Block
