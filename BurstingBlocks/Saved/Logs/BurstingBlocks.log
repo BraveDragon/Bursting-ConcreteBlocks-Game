@@ -1893,3 +1893,1374 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.05-02.43.35:441][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 287 ms (total: 4.45 sec)
 [2023.11.05-02.43.35:449][742]AssetCheck: New page: Asset Save: Stage
 [2023.11.05-02.43.35:449][742]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.05-02.43.57:361][840]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.43.57:361][840]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.43.57:364][840]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_0
+[2023.11.05-02.43.57:365][840]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_0
+[2023.11.05-02.43.57:377][840]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: Total job queries 213, among them cache hits 16 (7.51%)
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: Tracking 197 distinct input hashes that result in 141 distinct outputs (71.57%)
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: RAM used: 1.52 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.05-02.43.57:386][840]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.43.58:912][867]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.43.58:912][867]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.43.58:929][867]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_1
+[2023.11.05-02.43.58:930][867]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_1
+[2023.11.05-02.44.01:053][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.44.01:067][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.44.01:067][909]PIE: New page: PIE session: Stage (2023/11/05 20:44:01)
+[2023.11.05-02.44.01:067][909]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.01:080][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011901s)
+[2023.11.05-02.44.01:080][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011966s)
+[2023.11.05-02.44.01:080][909]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.44.01:080][909]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.44.01:081][909]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2023.11.05-02.44.01:120][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-02.44.01:122][909]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.44.01:122][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.44.01:122][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.44.01:122][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.44.01:122][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.44.01:122][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.44.01:125][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.44.01:149][909]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.44.01:149][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.44.01:149][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.44.01:149][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.44.01:150][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.11.05-02.44.01:150][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.11.05-02.44.01:152][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.11.05-02.44.01:152][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.11.05-02.44.01:152][909]LogInit: FAudioDevice initialized.
+[2023.11.05-02.44.01:152][909]LogAudio: Display: Audio Device (ID: 11) registered with world 'Stage'.
+[2023.11.05-02.44.01:156][909]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.44.01:161][909]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 60) at 2023.11.05-11.44.01
+[2023.11.05-02.44.01:164][909]LogWorld: Bringing up level for play took: 0.007817
+[2023.11.05-02.44.01:167][909]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.11.05-02.44.01:178][909]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.44.01:179][909]PIE: Server logged in
+[2023.11.05-02.44.01:179][909]PIE: Play in editor total start time 0.113 seconds.
+[2023.11.05-02.44.04:376][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.04:376][972]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.04:376][972]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.44.04:377][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.04:444][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.44.04:449][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.04:471][972]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.44.04:472][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.05-02.44.04:473][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.11.05-02.44.04:478][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.04:482][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.11.05-02.44.04:555][973]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.11.05-02.44.07:979][ 26]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.44.07:979][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.44.17:229][171]BlueprintLog: New page: Compile BP_Bullet
+[2023.11.05-02.44.17:296][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.11.05-02.44.18:632][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.44.18:819][187]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Bullet
+[2023.11.05-02.44.18:821][187]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Bullet331A02994175DE1580308F895A26FECC.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Bullet.uasset'
+[2023.11.05-02.44.18:831][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 4.65 sec)
+[2023.11.05-02.44.18:839][187]AssetCheck: New page: Asset Save: BP_Bullet
+[2023.11.05-02.44.18:839][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.44.29:268][366]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.11.05-02.44.29:334][366]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.44.29:334][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.30:863][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.44.30:878][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.44.30:878][394]PIE: New page: PIE session: Stage (2023/11/05 20:44:30)
+[2023.11.05-02.44.30:878][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.30:890][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012165s)
+[2023.11.05-02.44.30:890][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.012207s)
+[2023.11.05-02.44.30:890][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.44.30:890][394]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.44.30:891][394]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2023.11.05-02.44.30:932][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.05-02.44.30:942][394]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.05-02.44.30:942][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.44.30:942][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.44.30:943][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.44.30:943][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.44.30:943][394]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.44.30:943][394]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.44.30:943][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.44.30:943][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.44.30:943][394]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.44.30:943][394]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.44.30:943][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.44.30:945][394]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.44.30:968][394]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.44.30:968][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.44.30:968][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.44.30:968][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.44.30:969][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.05-02.44.30:969][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.05-02.44.30:971][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.05-02.44.30:971][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.05-02.44.30:971][394]LogInit: FAudioDevice initialized.
+[2023.11.05-02.44.30:971][394]LogAudio: Display: Audio Device (ID: 12) registered with world 'Stage'.
+[2023.11.05-02.44.30:975][394]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.44.30:980][394]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 60) at 2023.11.05-11.44.30
+[2023.11.05-02.44.30:983][394]LogWorld: Bringing up level for play took: 0.008204
+[2023.11.05-02.44.30:987][394]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.11.05-02.44.30:988][394]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.44.30:988][394]PIE: Server logged in
+[2023.11.05-02.44.30:989][394]PIE: Play in editor total start time 0.112 seconds.
+[2023.11.05-02.44.34:047][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.34:047][455]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.34:047][455]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.44.34:048][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.34:119][455]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.44.34:124][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.34:149][455]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.44.34:149][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.05-02.44.34:152][455]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.05-02.44.34:157][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.34:161][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.11.05-02.44.34:240][456]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.11.05-02.44.38:806][530]Cmd: DELETE
+[2023.11.05-02.44.38:819][530]Cmd: ACTOR DELETE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by Landscape /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0 is already used by Landscape /Game/Stage.Stage:PersistentLevel.Landscape_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_0 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_1 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_10 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_11 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:845][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_12 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_13 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_14 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_15 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_16 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_17 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_18 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_19 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_2 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_20 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_21 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_22 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_23 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_24 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_25 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_26 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_27 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_28 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_29 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:846][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_3 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_30 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_31 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_32 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_33 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_34 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_35 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_36 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_37 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_38 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_39 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_4 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_40 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_41 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_42 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_43 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_44 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_45 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_46 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_47 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_48 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_49 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_49, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_5 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_50 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:848][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_51 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_51, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_52 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_53 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_53, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_54 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_54, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_55 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_56 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_56, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_57 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_57, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_58 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_58, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_59 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_6 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_60 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_60, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_61 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_61, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_62 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_62, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_63 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_7 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_8 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeComponent_9 is already used by LandscapeComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_1 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_10 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_11 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_12 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_13 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_14 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_15 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_2 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:849][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_27 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_3 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_32 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_33 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_34 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_35 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_36 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_37 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_38 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_39 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_4 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_40 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_41 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_42 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_43 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_44 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_45 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_46 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_47 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_48 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_49 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_49, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_5 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_50 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_51 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_51, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_52 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_53 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_53, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_54 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_54, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_55 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_56 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_56, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_57 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_57, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_58 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_58, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_59 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_6 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_60 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_60, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_61 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_61, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_62 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_62, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_63 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_7 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_8 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:850][530]LogUObjectGlobals: Warning: Guid referenced by LandscapeHeightfieldCollisionComponent /Temp/Autosaves/Game/Stage_Auto1.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_9 is already used by LandscapeHeightfieldCollisionComponent /Game/Stage.Stage:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2023.11.05-02.44.38:872][530]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2023.11.05-02.44.38:901][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-02.44.38:904][530]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2023.11.05-02.44.40:480][555]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.40:480][555]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.40:481][555]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_2
+[2023.11.05-02.44.40:483][555]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_2
+[2023.11.05-02.44.41:880][580]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.41:880][580]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.41:883][580]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_3
+[2023.11.05-02.44.41:884][580]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_3
+[2023.11.05-02.44.43:303][608]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.44.43:326][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.44.43:326][608]PIE: New page: PIE session: Stage (2023/11/05 20:44:43)
+[2023.11.05-02.44.43:326][608]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.43:338][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011509s)
+[2023.11.05-02.44.43:338][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011569s)
+[2023.11.05-02.44.43:338][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.44.43:338][608]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.44.43:339][608]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2023.11.05-02.44.43:378][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.05-02.44.43:380][608]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.44.43:380][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.44.43:380][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.44.43:381][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.44.43:381][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.44.43:381][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.44.43:384][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.44.43:405][608]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.44.43:405][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.44.43:405][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.44.43:406][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.44.43:406][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.11.05-02.44.43:406][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.11.05-02.44.43:408][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.11.05-02.44.43:408][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.11.05-02.44.43:408][608]LogInit: FAudioDevice initialized.
+[2023.11.05-02.44.43:408][608]LogAudio: Display: Audio Device (ID: 13) registered with world 'Stage'.
+[2023.11.05-02.44.43:412][608]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.44.43:419][608]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 60) at 2023.11.05-11.44.43
+[2023.11.05-02.44.43:422][608]LogWorld: Bringing up level for play took: 0.009042
+[2023.11.05-02.44.43:424][608]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.11.05-02.44.43:426][608]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.44.43:426][608]PIE: Server logged in
+[2023.11.05-02.44.43:427][608]PIE: Play in editor total start time 0.101 seconds.
+[2023.11.05-02.44.45:307][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.45:307][644]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.45:307][644]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.44.45:308][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.45:385][644]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.44.45:390][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.45:413][644]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.44.45:414][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.05-02.44.45:416][644]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.05-02.44.45:421][644]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.45:424][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.11.05-02.44.45:501][645]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.11.05-02.44.47:008][676]Cmd: DELETE
+[2023.11.05-02.44.47:008][676]Cmd: ACTOR DELETE
+[2023.11.05-02.44.47:013][676]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2023.11.05-02.44.47:060][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.05-02.44.47:061][676]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2023.11.05-02.44.48:529][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.48:529][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.48:531][699]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_4
+[2023.11.05-02.44.48:532][699]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_4
+[2023.11.05-02.44.49:510][716]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.49:510][716]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.44.49:513][716]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_5
+[2023.11.05-02.44.49:514][716]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_5
+[2023.11.05-02.44.51:083][747]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.44.51:098][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.44.51:098][747]PIE: New page: PIE session: Stage (2023/11/05 20:44:51)
+[2023.11.05-02.44.51:098][747]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.51:109][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012055s)
+[2023.11.05-02.44.51:109][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.012100s)
+[2023.11.05-02.44.51:109][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.44.51:110][747]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.44.51:110][747]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2023.11.05-02.44.51:149][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.11.05-02.44.51:151][747]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.44.51:151][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.44.51:151][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.44.51:151][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.44.51:151][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.44.51:151][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.44.51:153][747]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.44.51:176][747]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.44.51:176][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.44.51:176][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.44.51:176][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.44.51:177][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.11.05-02.44.51:177][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.11.05-02.44.51:179][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.11.05-02.44.51:179][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.11.05-02.44.51:179][747]LogInit: FAudioDevice initialized.
+[2023.11.05-02.44.51:179][747]LogAudio: Display: Audio Device (ID: 14) registered with world 'Stage'.
+[2023.11.05-02.44.51:185][747]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.44.51:190][747]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 60) at 2023.11.05-11.44.51
+[2023.11.05-02.44.51:194][747]LogWorld: Bringing up level for play took: 0.008374
+[2023.11.05-02.44.51:196][747]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.11.05-02.44.51:198][747]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.44.51:198][747]PIE: Server logged in
+[2023.11.05-02.44.51:199][747]PIE: Play in editor total start time 0.102 seconds.
+[2023.11.05-02.44.52:998][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.52:998][781]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.44.52:999][781]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.44.52:999][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.53:069][781]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.44.53:074][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.44.53:098][781]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.44.53:098][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.05-02.44.53:100][781]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.05-02.44.53:104][781]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.44.53:108][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.11.05-02.44.53:188][782]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.11.05-02.44.54:488][809]Cmd: DELETE
+[2023.11.05-02.44.54:488][809]Cmd: ACTOR DELETE
+[2023.11.05-02.44.54:493][809]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2023.11.05-02.44.54:540][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.11.05-02.44.54:542][809]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2023.11.05-02.44.55:471][823]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.44.55:627][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.05-02.44.55:724][823]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.05-02.44.55:725][823]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage45C322A741B8EF76D3D89E90E54AFE24.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.05-02.44.55:752][823]LogFileHelpers: No new changes to save!
+[2023.11.05-02.44.55:752][823]LogFileHelpers: Saving map 'Stage' took 0.149
+[2023.11.05-02.44.55:760][823]LogFileHelpers: InternalPromptForCheckoutAndSave took 288 ms (total: 4.94 sec)
+[2023.11.05-02.44.55:767][823]AssetCheck: New page: Asset Save: Stage
+[2023.11.05-02.44.55:767][823]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.05-02.45.02:438][950]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.45.02:438][950]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.45.02:439][950]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_6
+[2023.11.05-02.45.02:440][950]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_6
+[2023.11.05-02.45.03:445][969]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.45.03:445][969]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Bullet.BP_Bullet_C
+[2023.11.05-02.45.03:448][969]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_7
+[2023.11.05-02.45.03:449][969]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet as actor: BP_Bullet_C /Game/Stage.Stage:PersistentLevel.BP_Bullet_C_7
+[2023.11.05-02.45.06:651][ 26]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.45.06:652][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.45.27:729][370]BlueprintLog: New page: Compile BP_Bullet
+[2023.11.05-02.45.27:792][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.05-02.45.29:041][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.45.29:219][386]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Bullet
+[2023.11.05-02.45.29:220][386]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_BulletD7B75DA548C7657C89ABEE94D9DF53CB.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Bullet.uasset'
+[2023.11.05-02.45.29:230][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 5.13 sec)
+[2023.11.05-02.45.29:238][386]AssetCheck: New page: Asset Save: BP_Bullet
+[2023.11.05-02.45.29:238][386]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.45.30:416][408]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.11.05-02.45.30:477][408]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.45.30:477][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.45.31:600][430]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.45.31:616][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.45.31:616][430]PIE: New page: PIE session: Stage (2023/11/05 20:45:31)
+[2023.11.05-02.45.31:616][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.45.31:627][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011837s)
+[2023.11.05-02.45.31:627][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011893s)
+[2023.11.05-02.45.31:627][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.45.31:628][430]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.45.31:628][430]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2023.11.05-02.45.31:668][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.05-02.45.31:677][430]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.45.31:677][430]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.45.31:677][430]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.45.31:677][430]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.45.31:677][430]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.45.31:677][430]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.45.31:681][430]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.45.31:703][430]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.45.31:704][430]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.45.31:704][430]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.45.31:704][430]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.45.31:705][430]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.11.05-02.45.31:705][430]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.11.05-02.45.31:706][430]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.11.05-02.45.31:706][430]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.11.05-02.45.31:706][430]LogInit: FAudioDevice initialized.
+[2023.11.05-02.45.31:706][430]LogAudio: Display: Audio Device (ID: 15) registered with world 'Stage'.
+[2023.11.05-02.45.31:710][430]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.45.31:716][430]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 60) at 2023.11.05-11.45.31
+[2023.11.05-02.45.31:718][430]LogWorld: Bringing up level for play took: 0.008219
+[2023.11.05-02.45.31:721][430]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.11.05-02.45.31:722][430]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.45.31:722][430]PIE: Server logged in
+[2023.11.05-02.45.31:723][430]PIE: Play in editor total start time 0.108 seconds.
+[2023.11.05-02.45.34:929][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.45.34:929][494]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.45.34:929][494]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.45.34:930][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.45.34:992][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.45.34:997][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.45.35:020][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.45.35:021][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.05-02.45.35:023][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.05-02.45.35:027][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.45.35:031][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.11.05-02.45.35:124][495]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.11.05-02.45.40:642][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.45.40:793][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.11.05-02.45.40:892][596]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.05-02.45.40:894][596]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/StageA08C5D014546E8E736DAAC97155E2422.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.05-02.45.40:918][596]LogFileHelpers: No new changes to save!
+[2023.11.05-02.45.40:918][596]LogFileHelpers: Saving map 'Stage' took 0.151
+[2023.11.05-02.45.40:926][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 285 ms (total: 5.42 sec)
+[2023.11.05-02.45.40:933][596]AssetCheck: New page: Asset Save: Stage
+[2023.11.05-02.45.40:934][596]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.05-02.47.23:120][605]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.47.23:121][605]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.48.22:815][293]LogSlate: Window 'Save Asset As' being destroyed
+[2023.11.05-02.48.28:346][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.48.28:483][372]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Bullet
+[2023.11.05-02.48.28:484][372]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Bullet49B2896D44E92DFE7248DF95378FFBB6.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Bullet.uasset'
+[2023.11.05-02.48.28:496][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 5.57 sec)
+[2023.11.05-02.48.28:505][372]AssetCheck: New page: Asset Save: BP_Bullet
+[2023.11.05-02.48.28:505][372]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.48.29:213][386]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.11.05-02.48.29:277][386]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.48.29:277][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.48.34:353][474]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.48.34:386][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.48.34:824][474]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.48.34:824][474]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.48.34:824][474]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: Total job queries 221, among them cache hits 16 (7.24%)
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: Tracking 205 distinct input hashes that result in 145 distinct outputs (70.73%)
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: RAM used: 1.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.05-02.48.34:828][474]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.48.34:839][474]LogViewport: Scene viewport resized to 374x421, mode Windowed.
+[2023.11.05-02.48.36:716][501]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.48.36:716][501]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.48.36:716][501]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.48.36:716][501]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.48.36:716][501]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.49.13:453][999]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.49.13:453][999]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.13:453][999]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.49.14:954][ 21]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.49.14:954][ 21]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.49.14:954][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.14:954][ 21]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.49.15:031][ 22]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.49.15:031][ 22]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.49.15:031][ 22]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.49.15:031][ 22]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.15:031][ 22]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.49.20:310][ 93]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.49.20:310][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.20:310][ 93]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.49.20:370][ 95]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.49.20:370][ 95]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.49.20:370][ 95]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.49.20:370][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.20:370][ 95]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.49.49:144][491]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.49.49:144][491]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.49:144][491]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.49.49:196][493]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.49.49:196][493]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.49.49:197][493]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.49.49:197][493]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.49:197][493]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.49.53:910][554]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.49.53:910][554]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.53:910][554]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.49.53:952][556]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.49.53:952][556]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.49.53:952][556]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.49.53:952][556]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.49.53:952][556]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.49.56:309][588]LogMaterialEditor: Saving and Compiling material M_Bullet
+[2023.11.05-02.49.57:306][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.11.05-02.49.58:519][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.11.05-02.49.58:752][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.50.00:576][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Bullet" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset" SILENT=true
+[2023.11.05-02.50.00:580][588]LogSavePackage: Moving output files for package: /Game/M_Bullet
+[2023.11.05-02.50.00:580][588]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/M_Bullet4F59B8204613048D37C3DAA14645839C.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset'
+[2023.11.05-02.50.00:877][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.12 sec (total: 7.69 sec)
+[2023.11.05-02.50.00:882][588]AssetCheck: New page: Asset Save: M_Bullet
+[2023.11.05-02.50.00:882][588]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: MaxSampler: 258 instructions
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: Texture samplers: 3/16
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.00:892][588]MaterialEditorStats: Shader Count: 16
+[2023.11.05-02.50.08:355][687]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.08:355][687]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.08:355][687]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.50.09:629][705]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.09:629][705]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.09:629][705]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.09:629][705]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.50.09:703][706]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.50.09:703][706]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.09:703][706]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.50.09:703][706]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.09:703][706]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.50.10:563][716]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.05-02.50.10:572][716]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.10:572][716]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.10:572][716]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.50.10:623][718]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.50.10:623][718]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.10:623][718]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.50.10:623][718]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.10:623][718]MaterialEditorStats: Shader Count: 2
+[2023.11.05-02.50.47:005][219]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.47:005][219]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.47:005][219]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.50.47:058][221]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.50.47:058][221]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.47:058][221]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.50.47:058][221]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.47:058][221]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.50.50:605][266]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.50:605][266]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.50:605][266]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.50.51:679][282]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.51:679][282]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.50.51:679][282]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.51:679][282]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.50.51:752][283]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.50.51:752][283]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.50.51:752][283]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.50.51:752][283]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.50.51:752][283]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.51.05:292][469]LogEditorTransaction: Undo Create Pin Link
+[2023.11.05-02.51.05:394][469]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.51.05:394][469]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.51.05:394][469]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.51.05:618][471]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.51.05:618][471]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.51.05:618][471]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.51.05:618][471]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.51.05:618][471]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.51.06:734][486]LogEditorTransaction: Undo Break Pin Links
+[2023.11.05-02.51.06:746][486]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.51.06:746][486]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.51.06:746][486]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.51.06:809][488]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.51.06:809][488]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.51.06:809][488]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.51.06:809][488]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.51.06:809][488]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.51.08:011][504]LogMaterialEditor: Saving and Compiling material M_Bullet
+[2023.11.05-02.51.08:571][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.11.05-02.51.09:454][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.11.05-02.51.09:666][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.51.11:375][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Bullet" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset" SILENT=true
+[2023.11.05-02.51.11:380][504]LogSavePackage: Moving output files for package: /Game/M_Bullet
+[2023.11.05-02.51.11:382][504]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/M_Bullet54B9A6674EB9C5C10369438DEB10154A.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset'
+[2023.11.05-02.51.11:392][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.72 sec (total: 9.42 sec)
+[2023.11.05-02.51.11:399][504]AssetCheck: New page: Asset Save: M_Bullet
+[2023.11.05-02.51.11:400][504]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: MaxSampler: 259 instructions
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: Texture samplers: 3/16
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.51.11:401][504]MaterialEditorStats: Shader Count: 16
+[2023.11.05-02.52.00:568][186]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.00:568][186]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.00:568][186]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Total job queries 377, among them cache hits 126 (33.42%)
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Tracking 251 distinct input hashes that result in 169 distinct outputs (67.33%)
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: RAM used: 1.86 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.23%
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Shaders Compiled: 46
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100.00%)
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Average time worker was idle: 25.05 s
+[2023.11.05-02.52.00:709][188]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.11 s
+[2023.11.05-02.52.00:710][188]LogShaderCompilers: Display: Job execution time: average 1.15 s, max 1.71 s
+[2023.11.05-02.52.00:710][188]LogShaderCompilers: Display: Job life time (pending + execution): average 1.22 s, max 1.76
+[2023.11.05-02.52.00:710][188]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.46 s
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Average processing rate: 4.01 jobs/sec
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Total thread time: 39.05 s
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Total thread preprocess time: 2.68 s
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Percentage time preprocessing: 6.86%
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Effective parallelization: 3.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.23 sec, max 1.29 sec, min 1.16 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 1.22 sec, max 1.31 sec, min 1.13 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.20 sec, max 1.24 sec, min 1.16 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.13 sec, max 1.18 sec, min 1.07 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.07% of total time (compiled    7 times, average 0.84 sec, max 1.05 sec, min 0.54 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.60% of total time (compiled    7 times, average 0.81 sec, max 0.99 sec, min 0.55 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.69% of total time (compiled    4 times, average 0.75 sec, max 0.88 sec, min 0.56 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.29% of total time (compiled    2 times, average 1.23 sec, max 1.29 sec, min 1.16 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 6.24% of total time (compiled    2 times, average 1.22 sec, max 1.31 sec, min 1.13 sec)
+[2023.11.05-02.52.00:715][188]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.52.00:832][189]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.52.00:832][189]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.52.00:832][189]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.52.00:832][189]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.00:832][189]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.52.02:582][213]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.02:582][213]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.02:582][213]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.52.03:637][229]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.52.03:637][229]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.03:637][229]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.03:637][229]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.52.03:710][230]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.11.05-02.52.03:710][230]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.52.03:710][230]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.03:710][230]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.03:710][230]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.52.08:450][293]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.08:450][293]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.08:450][293]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.52.08:501][295]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.11.05-02.52.08:501][295]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.52.08:501][295]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.08:501][295]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.08:501][295]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.52.11:054][327]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.11:055][327]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.11:055][327]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.52.11:918][340]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.52.11:918][340]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.52.11:918][340]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.52.11:918][340]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.52.11:918][340]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.52.15:659][391]LogMaterialEditor: Saving and Compiling material M_Bullet
+[2023.11.05-02.52.16:200][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.11.05-02.52.17:079][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.05-02.52.17:289][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.52.17:450][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Bullet" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset" SILENT=true
+[2023.11.05-02.52.17:454][391]LogSavePackage: Moving output files for package: /Game/M_Bullet
+[2023.11.05-02.52.17:456][391]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/M_Bullet33C3693D4FB6AC4B62DA539C3B0FBA99.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset'
+[2023.11.05-02.52.17:466][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 9.59 sec)
+[2023.11.05-02.52.17:473][391]AssetCheck: New page: Asset Save: M_Bullet
+[2023.11.05-02.52.17:473][391]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.53.11:596][150]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.11:597][150]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.11:597][150]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.12:855][168]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.12:855][168]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.12:855][168]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.12:855][168]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.53.12:927][169]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.53.12:927][169]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.12:927][169]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.12:927][169]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.12:927][169]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.53.18:365][241]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.18:365][241]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.18:365][241]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.19:343][255]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.53.19:345][255]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.19:345][255]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.19:345][255]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.19:345][255]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.53.32:649][433]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.32:649][433]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.32:649][433]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.33:545][446]MaterialEditorStats: Base pass shader without light map: 90 instructions
+[2023.11.05-02.53.33:545][446]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.33:545][446]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.33:545][446]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.33:545][446]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.53.36:533][485]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.36:533][485]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.36:533][485]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.37:594][500]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.53.37:594][500]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.37:595][500]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.37:595][500]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.37:595][500]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.53.38:380][509]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.38:380][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.38:380][509]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.38:444][511]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.53.38:444][511]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.38:444][511]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.38:444][511]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.38:444][511]MaterialEditorStats: Shader Count: 2
+[2023.11.05-02.53.50:443][672]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.50:443][672]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.50:443][672]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.53.51:563][688]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.53.51:563][688]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.53.51:563][688]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.51:563][688]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.51:563][688]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.53.59:957][801]LogSlate: Window 'Color Picker' being destroyed
+[2023.11.05-02.53.59:966][801]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.53.59:966][801]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.53.59:966][801]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.54.00:014][803]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.54.00:014][803]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.54.00:014][803]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.54.00:014][803]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.54.00:014][803]MaterialEditorStats: Shader Count: 2
+[2023.11.05-02.54.08:903][928]LogMaterialEditor: Saving and Compiling material M_Bullet
+[2023.11.05-02.54.09:440][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.05-02.54.10:423][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.05-02.54.10:622][928]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.54.10:796][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Bullet" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset" SILENT=true
+[2023.11.05-02.54.10:800][928]LogSavePackage: Moving output files for package: /Game/M_Bullet
+[2023.11.05-02.54.10:802][928]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/M_BulletC397A45E4D77E5724A1BF3B9F25D5166.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset'
+[2023.11.05-02.54.10:812][928]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 9.78 sec)
+[2023.11.05-02.54.10:819][928]AssetCheck: New page: Asset Save: M_Bullet
+[2023.11.05-02.54.10:819][928]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.54.12:837][958]LogSlate: Window 'M_Bullet' being destroyed
+[2023.11.05-02.54.12:930][958]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.12:930][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.14:629][992]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.54.14:645][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.54.14:645][992]PIE: New page: PIE session: Stage (2023/11/05 20:54:14)
+[2023.11.05-02.54.14:645][992]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.14:657][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011749s)
+[2023.11.05-02.54.14:657][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011788s)
+[2023.11.05-02.54.14:657][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.14:658][992]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.54.14:658][992]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2023.11.05-02.54.14:698][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.05-02.54.14:703][992]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.54.14:703][992]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.54.14:703][992]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.54.14:704][992]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.54.14:704][992]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.54.14:704][992]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.54.14:706][992]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.54.14:727][992]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.54.14:728][992]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.54.14:728][992]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.54.14:728][992]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.54.14:729][992]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.11.05-02.54.14:729][992]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.11.05-02.54.14:730][992]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.11.05-02.54.14:730][992]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.11.05-02.54.14:730][992]LogInit: FAudioDevice initialized.
+[2023.11.05-02.54.14:730][992]LogAudio: Display: Audio Device (ID: 16) registered with world 'Stage'.
+[2023.11.05-02.54.14:735][992]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.54.14:740][992]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.54.14
+[2023.11.05-02.54.14:742][992]LogWorld: Bringing up level for play took: 0.007775
+[2023.11.05-02.54.14:745][992]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.11.05-02.54.14:746][992]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.54.14:746][992]PIE: Server logged in
+[2023.11.05-02.54.14:747][992]PIE: Play in editor total start time 0.103 seconds.
+[2023.11.05-02.54.17:313][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.17:313][ 43]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.17:313][ 43]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.17:314][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.17:370][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.54.17:375][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.17:396][ 43]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.54.17:396][ 43]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.05-02.54.17:398][ 43]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.05-02.54.17:403][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.17:406][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.05-02.54.17:502][ 44]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.11.05-02.54.18:984][ 72]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.54.18:999][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.54.18:999][ 72]PIE: New page: PIE session: Stage (2023/11/05 20:54:18)
+[2023.11.05-02.54.19:000][ 72]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.19:011][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011601s)
+[2023.11.05-02.54.19:011][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011672s)
+[2023.11.05-02.54.19:011][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.19:012][ 72]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.54.19:013][ 72]LogPlayLevel: PIE: World Init took: (0.001595s)
+[2023.11.05-02.54.19:035][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.11.05-02.54.19:037][ 72]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.54.19:037][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.54.19:037][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.54.19:037][ 72]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.54.19:037][ 72]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.54.19:037][ 72]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.54.19:040][ 72]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.54.19:062][ 72]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.54.19:062][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.54.19:062][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.54.19:062][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.54.19:063][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.11.05-02.54.19:063][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.11.05-02.54.19:065][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.11.05-02.54.19:065][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.11.05-02.54.19:065][ 72]LogInit: FAudioDevice initialized.
+[2023.11.05-02.54.19:065][ 72]LogAudio: Display: Audio Device (ID: 17) registered with world 'Stage'.
+[2023.11.05-02.54.19:068][ 72]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.54.19:074][ 72]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.54.19
+[2023.11.05-02.54.19:077][ 72]LogWorld: Bringing up level for play took: 0.008010
+[2023.11.05-02.54.19:079][ 72]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.11.05-02.54.19:080][ 72]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.54.19:080][ 72]PIE: Server logged in
+[2023.11.05-02.54.19:082][ 72]PIE: Play in editor total start time 0.082 seconds.
+[2023.11.05-02.54.20:813][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.20:813][105]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.20:813][105]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.20:814][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.20:878][105]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.54.20:882][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.20:903][105]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.20:904][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.05-02.54.20:907][105]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.05-02.54.20:916][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-02.54.21:008][106]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.11.05-02.54.27:181][227]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.54.27:194][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.54.27:194][227]PIE: New page: PIE session: Stage (2023/11/05 20:54:27)
+[2023.11.05-02.54.27:194][227]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.27:206][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011935s)
+[2023.11.05-02.54.27:206][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011976s)
+[2023.11.05-02.54.27:206][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.27:207][227]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.54.27:207][227]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2023.11.05-02.54.27:230][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.11.05-02.54.27:231][227]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.54.27:231][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.54.27:231][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.54.27:231][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.54.27:231][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.54.27:231][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.54.27:233][227]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.54.27:256][227]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.54.27:256][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.54.27:256][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.54.27:256][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.54.27:257][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.11.05-02.54.27:257][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.11.05-02.54.27:259][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.11.05-02.54.27:259][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.11.05-02.54.27:259][227]LogInit: FAudioDevice initialized.
+[2023.11.05-02.54.27:259][227]LogAudio: Display: Audio Device (ID: 18) registered with world 'Stage'.
+[2023.11.05-02.54.27:263][227]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.54.27:268][227]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.54.27
+[2023.11.05-02.54.27:271][227]LogWorld: Bringing up level for play took: 0.007669
+[2023.11.05-02.54.27:274][227]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.11.05-02.54.27:276][227]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.54.27:276][227]PIE: Server logged in
+[2023.11.05-02.54.27:277][227]PIE: Play in editor total start time 0.083 seconds.
+[2023.11.05-02.54.32:994][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.32:995][348]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.32:995][348]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.32:995][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.33:058][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.54.33:063][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.33:083][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.33:085][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.05-02.54.33:087][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.05-02.54.33:094][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.05-02.54.33:188][349]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.11.05-02.54.34:550][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.54.34:571][376]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.54.34:571][376]PIE: New page: PIE session: Stage (2023/11/05 20:54:34)
+[2023.11.05-02.54.34:571][376]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.34:584][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011438s)
+[2023.11.05-02.54.34:584][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011507s)
+[2023.11.05-02.54.34:584][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.34:584][376]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.54.34:584][376]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.11.05-02.54.34:606][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.11.05-02.54.34:607][376]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.54.34:607][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.54.34:607][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.54.34:608][376]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.54.34:608][376]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.54.34:608][376]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.54.34:611][376]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.54.34:633][376]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.54.34:633][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.54.34:633][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.54.34:633][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.54.34:633][376]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.11.05-02.54.34:633][376]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.11.05-02.54.34:636][376]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.11.05-02.54.34:636][376]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.11.05-02.54.34:636][376]LogInit: FAudioDevice initialized.
+[2023.11.05-02.54.34:636][376]LogAudio: Display: Audio Device (ID: 19) registered with world 'Stage'.
+[2023.11.05-02.54.34:640][376]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.54.34:644][376]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.54.34
+[2023.11.05-02.54.34:648][376]LogWorld: Bringing up level for play took: 0.007498
+[2023.11.05-02.54.34:650][376]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.11.05-02.54.34:652][376]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.54.34:652][376]PIE: Server logged in
+[2023.11.05-02.54.34:653][376]PIE: Play in editor total start time 0.081 seconds.
+[2023.11.05-02.54.36:435][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.36:435][410]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.36:435][410]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.36:435][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.36:501][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.54.36:506][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.36:526][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.36:527][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.05-02.54.36:529][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.05-02.54.36:537][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.11.05-02.54.36:629][411]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.11.05-02.54.46:255][599]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.54.46:270][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.54.46:270][599]PIE: New page: PIE session: Stage (2023/11/05 20:54:46)
+[2023.11.05-02.54.46:270][599]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.46:282][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011412s)
+[2023.11.05-02.54.46:282][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011473s)
+[2023.11.05-02.54.46:282][599]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.46:282][599]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.54.46:283][599]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2023.11.05-02.54.46:305][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.11.05-02.54.46:306][599]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.54.46:306][599]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.54.46:306][599]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.54.46:306][599]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.54.46:306][599]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.54.46:306][599]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.54.46:309][599]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.54.46:331][599]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.54.46:332][599]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.54.46:332][599]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.54.46:332][599]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.54.46:333][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.11.05-02.54.46:333][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.11.05-02.54.46:335][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.11.05-02.54.46:335][599]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.11.05-02.54.46:335][599]LogInit: FAudioDevice initialized.
+[2023.11.05-02.54.46:335][599]LogAudio: Display: Audio Device (ID: 20) registered with world 'Stage'.
+[2023.11.05-02.54.46:338][599]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.54.46:343][599]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.54.46
+[2023.11.05-02.54.46:347][599]LogWorld: Bringing up level for play took: 0.007571
+[2023.11.05-02.54.46:349][599]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.11.05-02.54.46:350][599]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.54.46:350][599]PIE: Server logged in
+[2023.11.05-02.54.46:351][599]PIE: Play in editor total start time 0.082 seconds.
+[2023.11.05-02.54.50:564][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.50:564][686]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.54.50:564][686]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.54.50:565][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.50:621][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.54.50:626][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.54.50:647][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.54.50:648][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.05-02.54.50:650][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.11.05-02.54.50:659][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.11.05-02.54.50:752][687]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.11.05-02.54.57:798][823]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.54.57:801][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.54.58:117][823]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.54.58:117][823]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.54.58:117][823]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.54.58:127][823]LogViewport: Scene viewport resized to 374x421, mode Windowed.
+[2023.11.05-02.54.59:313][840]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.54.59:313][840]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.54.59:313][840]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.54.59:313][840]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.54.59:385][841]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.54.59:385][841]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.54.59:385][841]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.54.59:385][841]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.54.59:385][841]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.01:311][865]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.01:311][865]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.01:311][865]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Total job queries 533, among them cache hits 238 (44.65%)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Tracking 295 distinct input hashes that result in 185 distinct outputs (62.71%)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: RAM used: 2.08 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.25%
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Shaders Compiled: 90
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Jobs assigned 90, completed 90 (100.00%)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Average time worker was idle: 26.20 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 1.71 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Job life time (pending + execution): average 1.05 s, max 1.76
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.66 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Jobs were issued in 90 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Average processing rate: 4.36 jobs/sec
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Total thread time: 66.37 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Total thread preprocess time: 4.42 s
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Percentage time preprocessing: 6.66%
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Effective parallelization: 3.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.23 sec, max 1.29 sec, min 1.16 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 1.22 sec, max 1.31 sec, min 1.13 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.20 sec, max 1.24 sec, min 1.16 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.13 sec, max 1.18 sec, min 1.07 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.11 sec, max 1.16 sec, min 1.06 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.04% of total time (compiled   19 times, average 0.77 sec, max 1.05 sec, min 0.54 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.35% of total time (compiled   19 times, average 0.75 sec, max 0.99 sec, min 0.55 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.00% of total time (compiled   12 times, average 0.66 sec, max 0.88 sec, min 0.56 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.25% of total time (compiled   12 times, average 0.46 sec, max 0.62 sec, min 0.37 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.70% of total time (compiled    2 times, average 1.23 sec, max 1.29 sec, min 1.16 sec)
+[2023.11.05-02.55.01:429][867]LogShaderCompilers: Display: ================================================
+[2023.11.05-02.55.01:546][868]MaterialEditorStats: Base pass shader without light map: 91 instructions
+[2023.11.05-02.55.01:546][868]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.01:546][868]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.01:546][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.01:546][868]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.02:614][883]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.02:614][883]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.02:615][883]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.03:599][898]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.03:599][898]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.03:599][898]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.03:599][898]MaterialEditorStats: Shader Count: 3
+[2023.11.05-02.55.03:671][899]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.03:671][899]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.03:671][899]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.03:671][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.03:671][899]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.09:376][975]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.09:376][975]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.09:376][975]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.10:502][989]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.11.05-02.55.10:502][989]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.10:502][989]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.10:502][989]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.10:502][989]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.11:468][  2]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.11:468][  2]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.11:468][  2]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.12:323][ 13]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.12:323][ 13]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.12:323][ 13]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.12:323][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.12:323][ 13]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.14:191][ 37]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.14:191][ 37]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.14:191][ 37]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.15:127][ 51]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.15:127][ 51]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.15:127][ 51]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.15:127][ 51]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.15:127][ 51]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.21:275][133]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.21:275][133]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.21:275][133]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.21:330][135]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.21:330][135]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.21:330][135]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.21:330][135]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.21:330][135]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.23:209][160]LogMaterialEditor: Saving and Compiling material M_Bullet
+[2023.11.05-02.55.23:783][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.11.05-02.55.25:044][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.05-02.55.25:246][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.55.26:768][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Bullet" FILE="../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset" SILENT=true
+[2023.11.05-02.55.26:772][160]LogSavePackage: Moving output files for package: /Game/M_Bullet
+[2023.11.05-02.55.26:773][160]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/M_BulletE8513B204F8DB3A21A73DAA31E8AC751.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/M_Bullet.uasset'
+[2023.11.05-02.55.26:784][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.53 sec (total: 11.3 sec)
+[2023.11.05-02.55.26:791][160]AssetCheck: New page: Asset Save: M_Bullet
+[2023.11.05-02.55.26:791][160]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: MaxSampler: 259 instructions
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: Texture samplers: 3/16
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.26:792][160]MaterialEditorStats: Shader Count: 16
+[2023.11.05-02.55.27:738][175]LogSlate: Window 'M_Bullet' being destroyed
+[2023.11.05-02.55.27:832][175]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.55.27:832][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.55.36:235][340]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.55.36:249][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.55.36:249][340]PIE: New page: PIE session: Stage (2023/11/05 20:55:36)
+[2023.11.05-02.55.36:249][340]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.55.36:262][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011976s)
+[2023.11.05-02.55.36:262][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.012039s)
+[2023.11.05-02.55.36:262][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.55.36:262][340]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.55.36:263][340]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2023.11.05-02.55.36:304][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.11.05-02.55.36:309][340]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.55.36:309][340]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.55.36:309][340]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.55.36:310][340]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.55.36:310][340]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.55.36:310][340]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.55.36:312][340]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.55.36:334][340]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.55.36:334][340]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.55.36:334][340]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.55.36:334][340]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.55.36:335][340]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.11.05-02.55.36:335][340]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.11.05-02.55.36:337][340]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.11.05-02.55.36:337][340]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.11.05-02.55.36:337][340]LogInit: FAudioDevice initialized.
+[2023.11.05-02.55.36:337][340]LogAudio: Display: Audio Device (ID: 21) registered with world 'Stage'.
+[2023.11.05-02.55.36:341][340]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.55.36:346][340]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.55.36
+[2023.11.05-02.55.36:349][340]LogWorld: Bringing up level for play took: 0.007687
+[2023.11.05-02.55.36:352][340]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.11.05-02.55.36:354][340]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.55.36:354][340]PIE: Server logged in
+[2023.11.05-02.55.36:355][340]PIE: Play in editor total start time 0.105 seconds.
+[2023.11.05-02.55.40:286][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.55.40:286][421]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.55.40:286][421]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.55.40:287][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.55.40:347][421]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.55.40:351][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.55.40:374][421]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.55.40:374][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.05-02.55.40:376][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.11.05-02.55.40:381][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.55.40:384][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.11.05-02.55.40:476][422]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.11.05-02.55.44:473][498]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_Bullet.M_Bullet
+[2023.11.05-02.55.44:477][498]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.55.44:823][498]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.05-02.55.44:824][498]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.44:824][498]MaterialEditorStats: Shader Count: 0
+[2023.11.05-02.55.44:835][498]LogViewport: Scene viewport resized to 374x421, mode Windowed.
+[2023.11.05-02.55.45:917][514]MaterialEditorStats: Base pass shader: 212 instructions
+[2023.11.05-02.55.45:917][514]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.11.05-02.55.45:917][514]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.05-02.55.45:917][514]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.05-02.55.45:917][514]MaterialEditorStats: Shader Count: 4
+[2023.11.05-02.55.47:060][529]LogSlate: Window 'M_Bullet' being destroyed
+[2023.11.05-02.55.47:156][529]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.55.47:156][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.55.50:906][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.55.50:907][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.56.00:986][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.56.01:124][748]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Bullet
+[2023.11.05-02.56.01:126][748]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/BP_Bullet7EAECD784808558A2EBF92A7DC78CA9A.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Blueprints/BP_Bullet.uasset'
+[2023.11.05-02.56.01:137][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 11.4 sec)
+[2023.11.05-02.56.01:145][748]AssetCheck: New page: Asset Save: BP_Bullet
+[2023.11.05-02.56.01:145][748]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Bullet.BP_Bullet
+[2023.11.05-02.56.02:500][773]LogSlate: Window 'BP_Bullet' being destroyed
+[2023.11.05-02.56.02:561][773]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.56.02:561][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.56.09:655][912]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.56.09:670][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.56.09:670][912]PIE: New page: PIE session: Stage (2023/11/05 20:56:09)
+[2023.11.05-02.56.09:671][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.56.09:682][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012286s)
+[2023.11.05-02.56.09:682][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.012347s)
+[2023.11.05-02.56.09:683][912]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.56.09:683][912]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.56.09:683][912]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2023.11.05-02.56.09:725][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.11.05-02.56.09:732][912]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.56.09:732][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.56.09:732][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.56.09:732][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.56.09:732][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.56.09:732][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.56.09:735][912]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.56.09:758][912]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.56.09:759][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.56.09:759][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.56.09:759][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.56.09:760][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.11.05-02.56.09:761][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.11.05-02.56.09:762][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.11.05-02.56.09:762][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.11.05-02.56.09:762][912]LogInit: FAudioDevice initialized.
+[2023.11.05-02.56.09:762][912]LogAudio: Display: Audio Device (ID: 22) registered with world 'Stage'.
+[2023.11.05-02.56.09:765][912]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.56.09:771][912]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.56.09
+[2023.11.05-02.56.09:773][912]LogWorld: Bringing up level for play took: 0.008009
+[2023.11.05-02.56.09:777][912]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.11.05-02.56.09:778][912]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.56.09:778][912]PIE: Server logged in
+[2023.11.05-02.56.09:779][912]PIE: Play in editor total start time 0.109 seconds.
+[2023.11.05-02.56.13:006][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.56.13:006][977]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.56.13:006][977]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.56.13:007][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.56.13:059][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.56.13:064][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.56.13:088][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.05-02.56.13:088][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.05-02.56.13:090][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.11.05-02.56.13:094][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.56.13:097][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.11.05-02.56.13:183][978]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.11.05-02.56.16:911][ 51]Cmd: DELETE
+[2023.11.05-02.56.16:911][ 51]Cmd: ACTOR DELETE
+[2023.11.05-02.56.16:916][ 51]LogEditorActor: Deleted Actor: BP_Bullet_C
+[2023.11.05-02.56.16:963][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-02.56.16:965][ 51]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2023.11.05-02.56.18:105][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.05-02.56.18:259][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.05-02.56.18:357][ 69]LogSavePackage: Moving output files for package: /Game/Stage
+[2023.11.05-02.56.18:360][ 69]LogSavePackage: Moving '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Saved/Stage1E65BD6E4EFAB353A096E4B096BE751B.tmp' to '../../../../../../Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/BurstingBlocks/Content/Stage.umap'
+[2023.11.05-02.56.18:382][ 69]LogFileHelpers: No new changes to save!
+[2023.11.05-02.56.18:382][ 69]LogFileHelpers: Saving map 'Stage' took 0.148
+[2023.11.05-02.56.18:392][ 69]LogFileHelpers: InternalPromptForCheckoutAndSave took 287 ms (total: 11.7 sec)
+[2023.11.05-02.56.18:400][ 69]AssetCheck: New page: Asset Save: Stage
+[2023.11.05-02.56.18:400][ 69]LogContentValidation: Display: Validating /Script/Engine.World /Game/Stage.Stage
+[2023.11.05-02.56.35:532][411]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.05-02.56.35:546][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.05-02.56.35:546][411]PIE: New page: PIE session: Stage (2023/11/05 20:56:35)
+[2023.11.05-02.56.35:546][411]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Stage
+[2023.11.05-02.56.35:558][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011763s)
+[2023.11.05-02.56.35:558][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Stage.Stage to /Game/UEDPIE_0_Stage.Stage (0.011805s)
+[2023.11.05-02.56.35:558][411]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.05-02.56.35:558][411]LogAIModule: Creating AISystem for world Stage
+[2023.11.05-02.56.35:558][411]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.11.05-02.56.35:598][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.11.05-02.56.35:599][411]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.05-02.56.35:599][411]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.05-02.56.35:599][411]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.05-02.56.35:600][411]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.05-02.56.35:600][411]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.05-02.56.35:600][411]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.05-02.56.35:603][411]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.05-02.56.35:624][411]LogAudioMixer: Display: Using Audio Hardware Device スピーカー (Realtek(R) Audio)
+[2023.11.05-02.56.35:624][411]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.05-02.56.35:624][411]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.05-02.56.35:624][411]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.05-02.56.35:626][411]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.11.05-02.56.35:626][411]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.11.05-02.56.35:628][411]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.11.05-02.56.35:628][411]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.11.05-02.56.35:628][411]LogInit: FAudioDevice initialized.
+[2023.11.05-02.56.35:628][411]LogAudio: Display: Audio Device (ID: 23) registered with world 'Stage'.
+[2023.11.05-02.56.35:632][411]LogLoad: Game class is 'BP_GameMode_C'
+[2023.11.05-02.56.35:636][411]LogWorld: Bringing World /Game/UEDPIE_0_Stage.Stage up for play (max tick rate 0) at 2023.11.05-11.56.35
+[2023.11.05-02.56.35:639][411]LogWorld: Bringing up level for play took: 0.007471
+[2023.11.05-02.56.35:641][411]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.11.05-02.56.35:644][411]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.11.05-02.56.35:644][411]PIE: Server logged in
+[2023.11.05-02.56.35:644][411]PIE: Play in editor total start time 0.099 seconds.
+[2023.11.05-02.56.42:608][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.56.42:608][557]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Stage
+[2023.11.05-02.56.42:608][557]LogWorld: UWorld::CleanupWorld for Stage, bSessionEnded=true, bCleanupResources=true
+[2023.11.05-02.56.42:608][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.56.42:679][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.05-02.56.42:684][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.05-02.56.42:706][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.05-02.56.42:708][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.05-02.56.42:709][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.11.05-02.56.42:718][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.11.05-02.56.42:784][558]LogPlayLevel: Display: Destroying online subsystem :Context_43
