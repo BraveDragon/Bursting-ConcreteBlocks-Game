@@ -78,3 +78,6 @@ BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 *.txt
 *.ucas
+BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Content/Paks/BurstingBlocks-Windows.ucas
+BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Content/Paks/BurstingBlocks-Windows.ucas
+Windows/BurstingBlocks/Saved/Config/CrashReportClient/UECC-Windows-83CA8AAD4A438C603D01BD85056A1B2D/CrashReportClient.ini
