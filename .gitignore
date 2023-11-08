@@ -48,6 +48,7 @@ SourceArt/**/*.tga
 # Binary Files
 Binaries/*
 Plugins/*/Binaries/*
+BurstingBlocks/Binaries/*
 
 # Builds
 BurstingBlocks/Build/*
@@ -75,8 +76,6 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 *.log
 Windows/BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
-BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
-BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Binaries/Win64/BurstingBlocks.pdb
 *.txt
 *.ucas
 BurstingBlocks/Saved/StagedBuilds/Windows/BurstingBlocks/Content/Paks/BurstingBlocks-Windows.ucas
