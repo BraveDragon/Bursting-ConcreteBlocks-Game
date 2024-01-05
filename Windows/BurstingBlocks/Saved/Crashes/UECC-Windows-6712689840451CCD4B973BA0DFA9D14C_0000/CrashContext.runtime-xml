@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>61727CAF4ECDDE085E6D7BAAB2B220E6</ExecutionGuid>
+<CrashGUID>UECC-Windows-6712689840451CCD4B973BA0DFA9D14C_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: Cast&lt;APawn&gt;(NewUpdatedComponent-&gt;GetOwner())  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\PawnMovementComponent.cpp] [Line: 20] 
+FloatingPawnMovement must update a component owned by a Pawn
+Stack: 
+0x00007ff749ae8b01 BurstingBlocks.exe!UPawnMovementComponent::SetUpdatedComponent() []
+0x00007ff749ad806b BurstingBlocks.exe!UMovementComponent::OnRegister() []
+0x00007ff749a4171a BurstingBlocks.exe!UActorComponent::ExecuteRegisterEvents() []
+0x00007ff749a67ecf BurstingBlocks.exe!UActorComponent::RegisterComponentWithWorld() []
+0x00007ff74a6da55d BurstingBlocks.exe!USimpleConstructionScript::RegisterInstancedComponent() []
+0x00007ff7495e7ab6 BurstingBlocks.exe!AActor::ExecuteConstruction() []
+0x00007ff7495eb359 BurstingBlocks.exe!AActor::FinishSpawning() []
+0x00007ff749da971d BurstingBlocks.exe!UGameplayStatics::FinishSpawningActor() []
+0x00007ff749ddac35 BurstingBlocks.exe!UGameplayStatics::execFinishSpawningActor() []
+0x00007ff74591a032 BurstingBlocks.exe!UObject::execCallMathFunction() []
+0x00007ff74591d14e BurstingBlocks.exe!UObject::execLetObj() []
+0x00007ff7458f2bcb BurstingBlocks.exe!ProcessLocalScriptFunction() []
+0x00007ff7458f1dd1 BurstingBlocks.exe!UObject::ProcessInternal() []
+0x00007ff7456b4769 BurstingBlocks.exe!UFunction::Invoke() []
+0x00007ff7458f102e BurstingBlocks.exe!UObject::ProcessEvent() []
+0x00007ff7496004a4 BurstingBlocks.exe!AActor::ProcessEvent() []
+0x00007ff749fff16f BurstingBlocks.exe!FLatentActionManager::TickLatentActionForObject() []
+0x00007ff749fea82e BurstingBlocks.exe!FLatentActionManager::ProcessLatentActions() []
+0x00007ff74960ef8e BurstingBlocks.exe!AActor::Tick() []
+0x00007ff74960efea BurstingBlocks.exe!AActor::TickActor() []
+0x00007ff7495e877f BurstingBlocks.exe!FActorTickFunction::ExecuteTick() []
+0x00007ff74a9965ef BurstingBlocks.exe!FTickFunctionTask::DoTask() []
+0x00007ff74a9b4061 BurstingBlocks.exe!TGraphTask&lt;FTickFunctionTask&gt;::ExecuteTask() []
+0x00007ff744e688a4 BurstingBlocks.exe!FNamedTaskThread::ProcessTasksNamedThread() []
+0x00007ff744e68dbe BurstingBlocks.exe!FNamedTaskThread::ProcessTasksUntilQuit() []
+0x00007ff744e725cf BurstingBlocks.exe!FTaskGraphCompatibilityImplementation::WaitUntilTasksComplete() []
+0x00007ff74aa088ad BurstingBlocks.exe!FTickTaskSequencer::ReleaseTickGroup() []
+0x00007ff74aa15439 BurstingBlocks.exe!FTickTaskManager::RunTickGroup() []
+0x00007ff74a0350e8 BurstingBlocks.exe!UWorld::RunTickGroup() []
+0x00007ff74a03c4dd BurstingBlocks.exe!UWorld::Tick() []
+0x00007ff749d807f7 BurstingBlocks.exe!UGameEngine::Tick() []
+0x00007ff74291f5df BurstingBlocks.exe!FEngineLoop::Tick() []
+0x00007ff742938bae BurstingBlocks.exe!GuardedMain() []
+0x00007ff742938c8a BurstingBlocks.exe!GuardedMainWrapper() []
+0x00007ff74293bbc6 BurstingBlocks.exe!LaunchWindowsStartup() []
+0x00007ff74294d614 BurstingBlocks.exe!WinMain() []
+0x00007ff74bd2804a BurstingBlocks.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ff861a526ad KERNEL32.DLL!UnknownFunction []
+0x00007ff861caaa68 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>14680</ProcessId>
+<SecondsSinceStart>5</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-BurstingBlocks</GameName>
+<ExecutableName>BurstingBlocks</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
+<CommandLine> BurstingBlocks</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>ja-JP</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-23901901-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/Windows/BurstingBlocks/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/masa0/Documents/Unreal Projects/Bursting-ConcreteBlocks-Game/Windows/</RootDir>
+<MachineId>B5AC825F486D9A7F6A03758AEF817329</MachineId>
+<LoginId>b5ac825f486d9a7f6a03758aef817329</LoginId>
+<EpicAccountId>7077b956cdcf4384b56eeb97d1f405fa</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 5 5600H with Radeon Graphics         </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon(TM) Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (22H2) [10.0.22621.1992]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>16540430336</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>27690721280</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>4780171264</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>3529736192</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1272045568</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1276215296</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>3766956032</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>3766956032</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>6</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+BurstingBlocks  0x00007ff741d00000 + 7de8b01         
+BurstingBlocks  0x00007ff741d00000 + 7dd806b         
+BurstingBlocks  0x00007ff741d00000 + 7d4171a         
+BurstingBlocks  0x00007ff741d00000 + 7d67ecf         
+BurstingBlocks  0x00007ff741d00000 + 89da55d         
+BurstingBlocks  0x00007ff741d00000 + 78e7ab6         
+BurstingBlocks  0x00007ff741d00000 + 78eb359         
+BurstingBlocks  0x00007ff741d00000 + 80a971d         
+BurstingBlocks  0x00007ff741d00000 + 80dac35         
+BurstingBlocks  0x00007ff741d00000 + 3c1a032         
+BurstingBlocks  0x00007ff741d00000 + 3c1d14e         
+BurstingBlocks  0x00007ff741d00000 + 3bf2bcb         
+BurstingBlocks  0x00007ff741d00000 + 3bf1dd1         
+BurstingBlocks  0x00007ff741d00000 + 39b4769         
+BurstingBlocks  0x00007ff741d00000 + 3bf102e         
+BurstingBlocks  0x00007ff741d00000 + 79004a4         
+BurstingBlocks  0x00007ff741d00000 + 82ff16f         
+BurstingBlocks  0x00007ff741d00000 + 82ea82e         
+BurstingBlocks  0x00007ff741d00000 + 790ef8e         
+BurstingBlocks  0x00007ff741d00000 + 790efea         
+BurstingBlocks  0x00007ff741d00000 + 78e877f         
+BurstingBlocks  0x00007ff741d00000 + 8c965ef         
+BurstingBlocks  0x00007ff741d00000 + 8cb4061         
+BurstingBlocks  0x00007ff741d00000 + 31688a4         
+BurstingBlocks  0x00007ff741d00000 + 3168dbe         
+BurstingBlocks  0x00007ff741d00000 + 31725cf         
+BurstingBlocks  0x00007ff741d00000 + 8d088ad         
+BurstingBlocks  0x00007ff741d00000 + 8d15439         
+BurstingBlocks  0x00007ff741d00000 + 83350e8         
+BurstingBlocks  0x00007ff741d00000 + 833c4dd         
+BurstingBlocks  0x00007ff741d00000 + 80807f7         
+BurstingBlocks  0x00007ff741d00000 + c1f5df          
+BurstingBlocks  0x00007ff741d00000 + c38bae          
+BurstingBlocks  0x00007ff741d00000 + c38c8a          
+BurstingBlocks  0x00007ff741d00000 + c3bbc6          
+BurstingBlocks  0x00007ff741d00000 + c4d614          
+BurstingBlocks  0x00007ff741d00000 + a02804a         
+KERNEL32        0x00007ff861a40000 + 126ad           
+ntdll           0x00007ff861c50000 + 5aa68           
+</PCallStack>
+<PCallStackHash>9B1EC1565714839B1CBFA76CFDCE9A2E99045692</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3060 Laptop GPU</RHI.AdapterName>
+<RHI.UserDriverVersion>516.94</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.1694</RHI.InternalDriverVersion>
+<RHI.DriverDate>7-21-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2520</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
