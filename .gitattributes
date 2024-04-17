@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 BurstingBlocks/Content/Kraken/Textures/Tex_KRAKEN_BODY_RoughnessMetallicSpecular.uasset filter=lfs diff=lfs merge=lfs -text
+/Windows/BurstingBlocks/Content/Paks/BurstingBlocks-Windows.ucas filter=lfs diff=lfs merge=lfs -text
