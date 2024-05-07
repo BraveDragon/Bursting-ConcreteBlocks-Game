@@ -7,6 +7,9 @@ Unreal Engineで作成したシューティングゲームです。
 - README.md：このリポジトリのREADMEです。
 - LICENSE：ライセンスの説明です。
 
+# ゲームのプレイ画面
+![プレイ画面](https://github.com/BraveDragon/Bursting-ConcreteBlocks-Game/assets/54306193/435774f5-46ff-40b8-8f68-7a8e43f54620)
+
 # 使用したツール類
 - ゲームエンジン：Unreal Engine 5.1
 - モンスター：Kraken
